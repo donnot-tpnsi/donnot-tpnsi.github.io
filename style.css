@@ -22,10 +22,12 @@
 .container img{
   height:150px;
   width:150px;
-  float: left;
+  position: absolute; /* L'image est sortie du flux normal */
   border-radius:50%;
   shape-outside:margin-box;
   margin:20px 20px 10px 0;
+  cursor: move; /* Curseur "déplacer" */
+  z-index: 10; /* Assure que l'image reste au-dessus du texte */
   
 }
 
