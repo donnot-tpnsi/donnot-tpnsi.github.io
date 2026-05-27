@@ -1,9 +1,10 @@
-.container{
-  width: 500px;
-  border:1px solid white;
-  margin: 0 auto;
-  border-radius: 10px;
-  padding: 30px;
+.container {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #000;
+    resize: both; /* Cela permet de redimensionner avec la souris */
+    overflow: auto; /* Nécessaire pour que resize fonctionne */
 }
 
 .container h1{
